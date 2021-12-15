@@ -46,6 +46,10 @@ body
 {
     margin-top: 50px;
 }
+.mr
+{
+    margin-right: 10px;
+}
 .navbar-color
 {
     color: rgb( 255 255 255);
