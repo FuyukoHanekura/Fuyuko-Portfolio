@@ -1,3 +1,11 @@
+body
+{
+    /*font-weight: 400;
+    font-size: 16px;*/
+    background-color: black;
+    color: white;
+
+}
 #navbar
 {
     background-color: rgba(0, 0, 0, 0.9);
@@ -6,9 +14,14 @@
 {
     color: rgb(255 255 255);
 }
+.navbar-brand:hover
+{
+    color: rgb(0, 174, 255);
+}
+
 #headerwrap 
 {
-    background: url(../img/Wallpaper.jpg) no-repeat center top;
+    background: url(../img/Background_Image.png) no-repeat center top;
     margin-top: -70px;
     padding-top: 250px;
     text-align: center;
@@ -17,4 +30,49 @@
     width: 100%;
     background-size: 100%;
     background-size: cover;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler {
+    border: 1px solid red;
+}
+.centered
+{
+    text-align: center;
+}
+.mt
+{
+    margin-top: 50px;
+}
+
+.mt-100
+{
+    margin-top: 100px;
+}
+
+.mr
+{
+    margin-right: 10px;
+}
+.navbar-color
+{
+    color: rgb( 255 255 255);
+}
+.navbar-color:hover
+{
+    color: rgb(0, 174, 255);
+}
+.active
+{
+    color: rgb(13, 110, 253);
+}
+.tab-pane
+{
+    color: white;
+}
+.typing
+{
+    color: rgb(13, 110, 253);
 }
