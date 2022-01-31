@@ -76,3 +76,9 @@ body
 {
     color: rgb(13, 110, 253);
 }
+.carousel-caption
+{
+    background: rgba(0, 0, 0, 0.76);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
