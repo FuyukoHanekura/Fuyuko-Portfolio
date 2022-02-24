@@ -82,3 +82,7 @@ body
     border-radius: 10px;
     margin-bottom: 20px;
 }
+.img-fluid
+{
+    width: 75% !important;
+}
